@@ -8,8 +8,5 @@ public class OffRoadVechile extends Vechile {
         super(new SpecialDriveStrategy());
     }
 
-    public static void main(String[] args) {
-        OffRoadVechile offRoadVechile = new OffRoadVechile();
-        offRoadVechile.drive();
-    }
+
 }
