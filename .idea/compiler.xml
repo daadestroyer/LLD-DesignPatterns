@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="StrategyDesignPattern" />
+        <module name="ObserverDesignPattern" />
+        <module name="DecoratorDesignPattern" />
+        <module name="LLD_SnakeLadder" />
+        <module name="Factory_AbstractFactoryPattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DecoratorDesignPattern" target="11" />
+      <module name="Factory_AbstractFactoryPattern" target="11" />
+      <module name="LLD_SnakeLadder" target="11" />
+      <module name="ObserverDesignPattern" target="11" />
+      <module name="StrategyDesignPattern" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

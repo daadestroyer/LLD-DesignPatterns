@@ -1,9 +1,8 @@
 package PizzaExample.ToppingsTypes;
 
 import PizzaExample.BasePizza.BasePizza;
-import PizzaExample.ToppingsDecorator.ToppingsDecorator;
 
-public class ExtraCheeze extends ToppingsDecorator {
+public class ExtraCheeze extends BasePizza {
     BasePizza basePizza;
 
     public ExtraCheeze(BasePizza basePizza) {

@@ -1,9 +1,9 @@
 package PizzaExample.ToppingsTypes;
 
 import PizzaExample.BasePizza.BasePizza;
-import PizzaExample.ToppingsDecorator.ToppingsDecorator;
 
-public class Mushroom extends ToppingsDecorator {
+
+public class Mushroom extends BasePizza {
      BasePizza basePizza;
     @Override
     public int cost() {

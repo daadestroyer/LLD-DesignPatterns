@@ -1,11 +1,14 @@
+import PizzaExample.BasePizza.BasePizza;
 import PizzaExample.PizzaTypes.CheezeBurst;
+import PizzaExample.PizzaTypes.VegDelight;
 import PizzaExample.ToppingsTypes.ExtraCheeze;
+import PizzaExample.ToppingsTypes.ExtraJalepino;
 
 public class main {
     public static void main(String[] args) {
-        CheezeBurst cheezeBurst = new CheezeBurst();
 
-        ExtraCheeze extraCheeze = new ExtraCheeze(cheezeBurst);
-        System.out.println(extraCheeze.cost());
+        BasePizza basePizza = new ExtraJalepino(new ExtraCheeze(new VegDelight()));
+        System.out.println(basePizza.cost());
+
     }
 }
