@@ -8,6 +8,7 @@ import example2.Strategy;
 public class OffRoadVechile extends Vechile {
 
     public OffRoadVechile() {
+        // this is constructor injection
         super(new SpecialDriveStrategy());
     }
 }

@@ -5,6 +5,7 @@ import example1.Vechile;
 
 public class PassangerVechile extends Vechile {
     public PassangerVechile(){
+        // this is constructor injection
         super(new NormalDriveStrategy());
     }
 }

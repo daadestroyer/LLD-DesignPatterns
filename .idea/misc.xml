@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/LLD_SnakeLadder/pom.xml" />
-        <option value="$PROJECT_DIR$/ObserverDesignPattern/pom.xml" />
         <option value="$PROJECT_DIR$/StrategyDesignPattern/pom.xml" />
-        <option value="$PROJECT_DIR$/DecoratorDesignPattern/pom.xml" />
         <option value="$PROJECT_DIR$/Factory_AbstractFactoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/NullObjectDesignPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/Practice/pom.xml" />
       </list>
     </option>
   </component>

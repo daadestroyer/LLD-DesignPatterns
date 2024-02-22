@@ -3,10 +3,10 @@ package abstractFactoryPattern;
 public class LVFactory implements VechileSubFactory {
 
     @Override
-    public Vechile getVechile(String vechileName) {
-        if (vechileName.equalsIgnoreCase("lv1")) {
+    public Vechile getVechileFactory(String vechileNameName) {
+        if (vechileNameName.equalsIgnoreCase("lv1")) {
             return new Lv1();
-        } else if (vechileName.equalsIgnoreCase("lv2")) {
+        } else if (vechileNameName.equalsIgnoreCase("lv2")) {
             return new Lv2();
         }
         return null;
