@@ -28,14 +28,11 @@ public class Laptop implements StockObservableI {
 
     @Override
     public void setStockCount(int newStockCount) {
-        if(stockCount == 0){
+        if (stockCount == 0)
             notifySubscribers();
-        }
-        else{
+        else
             stockCount += newStockCount;
-        }
     }
-
     @Override
     public int getStockCount() {
         return stockCount;

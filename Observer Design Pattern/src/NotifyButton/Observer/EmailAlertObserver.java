@@ -21,3 +21,5 @@ public class EmailAlertObserver implements NotificationAlertObserver {
         System.out.println("mail sent at : " + emailId + " : " + msg);
     }
 }
+
+

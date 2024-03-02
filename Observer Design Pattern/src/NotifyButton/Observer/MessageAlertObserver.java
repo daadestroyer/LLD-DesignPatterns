@@ -20,3 +20,5 @@ public class MessageAlertObserver implements NotificationAlertObserver {
         System.out.println("message sent to " + phone + " : " + msg);
     }
 }
+
+
