@@ -14,3 +14,5 @@ public class SocketAdapterImpl implements  SocketAdapter{
         return socket.pinType();
     }
 }
+
+

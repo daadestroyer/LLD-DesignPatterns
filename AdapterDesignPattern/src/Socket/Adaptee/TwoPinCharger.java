@@ -6,3 +6,5 @@ public class TwoPinCharger implements Socket {
         return "2 pin socket";
     }
 }
+
+

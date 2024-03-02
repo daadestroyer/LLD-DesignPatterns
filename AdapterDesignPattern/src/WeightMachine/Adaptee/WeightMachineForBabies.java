@@ -6,3 +6,6 @@ public class WeightMachineForBabies  implements WeightMachine{
         return 28;
     }
 }
+
+
+
